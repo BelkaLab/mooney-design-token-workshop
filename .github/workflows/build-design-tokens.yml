@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - devel
     paths:
       - tokens/**/*.tokens.json
 
