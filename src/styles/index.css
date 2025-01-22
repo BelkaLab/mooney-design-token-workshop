@@ -7,7 +7,7 @@
 @layer components {
   .button {
     @apply inline-flex items-center justify-center border border-solid transition;
-    border-radius: var(--radius-base);
+    border-radius: var(--button-dimension-radius);
     gap: var(--spacing-xs);
     padding: var(--spacing-xs) var(--spacing-md);
   }
